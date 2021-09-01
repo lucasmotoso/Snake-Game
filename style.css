@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 body{
     height:  95vh;
     width: 95;
@@ -27,12 +31,56 @@ header img{
     align-items: center;
     flex-direction: column;
     text-decoration: black;
-    margin-top: 10px;
+    margin-top: 80px;
 
     justify-content:space-between;
     justify-items: center;
 
 }
+
+a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: rgb(255, 255, 255);
+}
+
+
+ul{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 512px;
+    background: rgba(163, 192, 85, 0.589) url(img/241107-1.jpg) repeat-x;
+    float: left;
+    border-radius: 10px;
+}
+
+ul li {
+ 
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: rgb(255, 255, 255);
+    background: url(img/divisor.png) repeat-y;
+    border-radius: 10px;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover{
+    color: rgb(251, 255, 0);
+    background: rgba(46, 77, 1, 0.267);
+    border-radius: 10px;
+}
+
 
 h1{
     color: rgb(255, 255, 255);
@@ -46,9 +94,30 @@ h1{
     justify-items: center;
 }
 
+canvas{
+    border-radius: 10px;
+
+}
+
 
 footer{
     font-style: normal;
     font-size: 18px;
     color: azure;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 512px;
+    background: rgba(54, 73, 2, 0.589) url(img/241107-1.jpg) repeat-x;
+    float: left;
+    border-radius: 10px;
+
+}
+
+footer:hover{
+    color: rgb(251, 255, 0);
+    background: rgba(46, 77, 1, 0.267);
+    border-radius: 10px;
+
 }
